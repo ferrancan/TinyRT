@@ -1,0 +1,6 @@
+{
+  "cmake.useCMakePresets": "always",
+  "cmake.copyCompileCommands": "${workspaceFolder}/compile_commands.json",
+  "clangd.arguments": ["--background-index", "--clang-tidy", "--header-insertion=never"],
+  "editor.formatOnSave": true
+}
